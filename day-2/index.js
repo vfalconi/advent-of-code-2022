@@ -1,4 +1,4 @@
-const strategyGuide = require('../PuzzleInput').filter(v => v !== '').map(i => {
+const strategyGuide = require('../PuzzleInput').map(i => {
 	const p = i.split(' ');
 	return {
 		opponent: p[0],
